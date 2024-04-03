@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/_000_ExercisePlace/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_000_ExercisePlace/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_002_ProjectConfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_002_ProjectConfig/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_003_CreateBeanOnCondition/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_003_CreateBeanOnCondition/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_004_CreateBeanFromXMLConfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_004_CreateBeanFromXMLConfig/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_005_WiringBeansUsingMethodCall/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_005_WiringBeansUsingMethodCall/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_006_WireBeansUsingMethodParameters/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_006_WireBeansUsingMethodParameters/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_007_WireBeansUsingAutowired/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_007_WireBeansUsingAutowired/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_008_WireBeansUsingAutowiredonSetterMethod/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_008_WireBeansUsingAutowiredonSetterMethod/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_009_WireBeansUsingAutowiredonConstructor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_009_WireBeansUsingAutowiredonConstructor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_010_AutowiringWithMultipleBeansOfSameType/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_010_AutowiringWithMultipleBeansOfSameType/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_011_CircularDependency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_011_CircularDependency/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_012_Assignment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_012_Assignment/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
