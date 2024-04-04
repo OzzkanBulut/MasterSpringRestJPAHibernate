@@ -21,6 +21,7 @@
         <module>_010_AutowiringWithMultipleBeansOfSameType</module>
         <module>_011_CircularDependency</module>
         <module>_012_Assignment</module>
+        <module>_013_SingletonBean</module>
     </modules>
 
     <properties>
