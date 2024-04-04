@@ -16,5 +16,15 @@ public class Main {
         the context.Therefore, it can have only one name.And because we set the name audi at the end,
         Both v1 and v2 objects have the name audi.*/
         System.out.println(v1.getName()+" "+v2.getName());
+
+        System.out.println(v1.hashCode());
+        System.out.println(v2.hashCode());
+        if(v1.hashCode()==v2.hashCode()){
+            System.out.println("Vehicle is a singleton bean scope");
+        }else{
+            System.out.println("Vehicle is a prototype bean scope");
+        }
+
+
     }
 }
