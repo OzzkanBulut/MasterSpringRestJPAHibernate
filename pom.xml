@@ -22,6 +22,7 @@
         <module>_011_CircularDependency</module>
         <module>_012_Assignment</module>
         <module>_013_SingletonBean</module>
+        <module>_014_EagerVsLazyBeans</module>
     </modules>
 
     <properties>
