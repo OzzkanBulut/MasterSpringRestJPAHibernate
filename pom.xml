@@ -26,6 +26,7 @@
         <module>_015_PrototypeBeanScope</module>
         <module>_016_AOPProblem</module>
         <module>_017_AOPExample</module>
+        <module>_018_AOPSecondOption</module>
     </modules>
 
     <properties>
