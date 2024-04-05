@@ -36,7 +36,8 @@ some is trying to acces the methods below!*/
         if(vehicleStarted){
             music = speakerType.playMusic(song);
         }else{
-            logger.log(Level.SEVERE,"Vehicle not started to perform the"+" operation");
+            logger.log(Level.SEVERE,"Vehicle not started to perform the playMusic() operation");
+            throw new NullPointerException("There is no music!");
         }
         logger.info("method execution ended");
         Instant finish = Instant.now();
@@ -51,7 +52,7 @@ some is trying to acces the methods below!*/
         if(vehicleStarted){
             status = tireType.moveVehicle();
         }else{
-            logger.log(Level.SEVERE,"Vehicle not started to perform the "+" operation");
+            logger.log(Level.SEVERE,"Vehicle not started to perform the moveVehicle operation");
         }
         logger.info("method execution end");
         Instant finish = Instant.now();
@@ -66,7 +67,7 @@ some is trying to acces the methods below!*/
         if(vehicleStarted){
             status = tireType.applyBreak();
         }else{
-            logger.log(Level.SEVERE,"Vehicle not started to perform the "+" operation");
+            logger.log(Level.SEVERE,"Vehicle not started to perform the applyBreak operation");
         }
         logger.info("method execution end");
         Instant finish = Instant.now();

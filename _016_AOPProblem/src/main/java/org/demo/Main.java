@@ -12,7 +12,7 @@ public class Main {
         eminem.setSongName("eminem");
         System.out.println(vehicleServices.moveVehicle(true));
         System.out.println(vehicleServices.applyBreak(true));
-        System.out.println(vehicleServices.playMusic(true,eminem));
+        System.out.println(vehicleServices.playMusic(false,eminem));
 
     }
 }
