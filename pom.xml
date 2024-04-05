@@ -25,6 +25,7 @@
         <module>_014_EagerVsLazyBeans</module>
         <module>_015_PrototypeBeanScope</module>
         <module>_016_AOPProblem</module>
+        <module>_017_AOPExample</module>
     </modules>
 
     <properties>
@@ -43,6 +44,11 @@
             <groupId>javax.annotation</groupId>
             <artifactId>javax.annotation-api</artifactId>
             <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>6.1.2</version>
         </dependency>
     </dependencies>
 
