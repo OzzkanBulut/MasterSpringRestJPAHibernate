@@ -4,6 +4,9 @@ import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.beans.factory.NoUniqueBeanDefinitionException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Random;
 import java.util.function.Supplier;
 
@@ -59,11 +62,9 @@ public class Main {
 //
 //
 //        context.close();
-        System.out.println("hee");
-        int[] nums1 = {1,2,3,0,0,0};
-        int[] nums2 = {2,5,6};
-        int m= 3, n=3;
-        Solution.merge(nums1,3,nums2,3);
+        System.out.println(Solution.isValid("{{[]}"));
+
+
 
 
 
