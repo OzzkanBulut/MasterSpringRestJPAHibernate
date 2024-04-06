@@ -62,7 +62,11 @@ public class Main {
 //
 //
 //        context.close();
-        System.out.println(Solution.isValid("{{[]}"));
+
+        var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
+        VehicleServices vehicleServices = context.getBean(VehicleServices.class);
+//        System.out.println(vehicleServices.moveVehicle());
+        vehicleServices.isBefore();
 
 
 
