@@ -28,6 +28,7 @@
         <module>_017_AOPExample</module>
         <module>_018_AOPSecondOption</module>
         <module>_019_SpringBootHello/SpringBootHello</module>
+        <module>_020_EazySchoolApplication</module>
     </modules>
 
     <properties>
@@ -51,6 +52,13 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
             <version>6.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <version>3.2.2</version>
+            <scope>runtime</scope>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
