@@ -1,19 +1,25 @@
 package org.demo._020_EazySchoolApplication.controller;
 
+import jakarta.validation.Valid;
+import lombok.extern.slf4j.Slf4j;
 import org.demo._020_EazySchoolApplication.model.Contact;
 import org.demo._020_EazySchoolApplication.service.ContactService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.logging.Logger;
 
 @Controller
+@Slf4j
 public class ContactController {
 
-    private Logger logger = Logger.getLogger(ContactController.class.getName());
+
     private final ContactService contactService;
 
     @Autowired
@@ -22,24 +28,18 @@ public class ContactController {
     }
 
     @GetMapping("/contact")
-    public String displayContactPage() {
+    public String displayContactPage(Model model) {
+        model.addAttribute("contact",new Contact());
         return "contact";
     }
 
-    //    @PostMapping("/saveMsg")
-//    public ModelAndView saveMessage(@RequestParam String name, @RequestParam String mobileNum,
-//                                    @RequestParam String email, @RequestParam String subject,
-//                                    @RequestParam String message){
-//        logger.info("Name: "+name);
-//        logger.info("Mobile Number: "+mobileNum);
-//        logger.info("E-mail: "+email);
-//        logger.info("Subject: "+subject);
-//        logger.info("Message: "+message);
-//        return new ModelAndView("redirect:/contact");
-//    }
     @PostMapping("/saveMsg")
-    public ModelAndView saveMessage(Contact contact) {
+    public String saveMessage(@Valid @ModelAttribute("contact") Contact contact, Errors errors) {
+        if(errors.hasErrors()){
+            log.error("Contact from validation failed due to :" +errors.toString());
+            return "contact";
+        }
         contactService.saveMessageDetails(contact);
-        return new ModelAndView("redirect:/contact");
+        return"redirect:/contact";
     }
 }
